@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <!--    Main content  -->
+        <section class="container">
+            <nav class="navbar">
+                <div class="navbar-content">
+                    <img src="./lego.png" alt="Logo">
+                    <ul>
+                        <li><a href="">Exclusivos</a></li>
+                        <li><a href="">Nuevos</a></li>
+                        <li><a href="">Gift cards</a></li>
+                        <li><a href="">Find a store</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <section class="main-content">
+                <p>Diseña tu</p>
+                <h1>Súper héroe</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi perspiciatis distinctio praesentium, molestiae doloribus soluta accusamus odit commodi ex nulla nobis deserunt ipsam id, quis magnam maiores a cumque provident?</p>
+            </section>
+
+            <section class="side-content">
+                <p>Superman</p>
+                <img src="./super-man.png" alt="Superman">
+                <div></div>
+            </section>
+
+            <section class="footer">
+                <div id="button1">
+                    <img src="./batman.webp" alt="">
+                </div>
+                <div id="button2">
+                    <img src="./robin.png" alt="">
+                </div>
+                <div id="button3">
+                    <img src="./spiderman.png" alt="">
+                </div>
+            </section>
+        </section>
+
+        <!-- Loader -->
+        <section class="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+
+        <!--    Modal   -->
+        <section class="modal hidden">
+            <div class="modal-content">
+                <img class="modal-content-close" src="https://img.icons8.com/ios-glyphs/30/000000/delete-sign.png"/>
+                <div class="modal-content-slider">
+                    <input type="radio" name="slider-1" id="radio-1" checked>
+                    <input type="radio" name="slider-1" id="radio-2">
+                    <input type="radio" name="slider-1" id="radio-3">
+
+                    <div class="cards">
+                        <label for="radio-1" id="card-1" class="card">
+                            <img src="./batman.webp" alt="">
+                        </label>
+                        <label for="radio-2" id="card-2"class="card">
+                            <img src="./robin.png" alt="">
+                        </label>
+                        <label for="radio-3" id="card-3"class="card">
+                            <img src="./spiderman.png" alt="">
+                        </label>
+                    </div>
+                </div>
+
+                <div class="quiero">
+                    <p>Lo quiero!</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
